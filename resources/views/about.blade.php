@@ -4,19 +4,29 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Indonesia-Australia Prosperity Expo 2025</title>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap"
-        rel="stylesheet" />
-    <link
-        href="https://fonts.googleapis.com/icon?family=Material+Icons"
-        rel="stylesheet" />
 
-    <link
-        rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+    <title>About Us - Indonesia-Australia Prosperity Expo 2025</title>
+    <meta name="description" content="Learn about the Indonesia-Australia Prosperity Expo 2025: its vision, background, and objectives to strengthen bilateral economic partnerships, cultural understanding, and mutual growth between Indonesia and Australia.">
+    <meta name="keywords" content="IAPEX 2025, About Us, Indonesia Australia Partnership, Economic Cooperation, Bilateral Trade, IA-CEPA, Cultural Exchange, Tourism, Investment Opportunities, Event Objectives">
+    <meta name="author" content="Indonesia–Australia Prosperity Expo Committee" />
 
-    <link rel="stylesheet" href="assets/css/about.css">
+    <link rel="icon" href="assets/images/logo/IAPEX_Logo.png" type="image/x-icon" />
+
+    <meta property="og:title" content="About IAPEX 2025: Strengthening Indonesia-Australia Ties" />
+    <meta property="og:description" content="Discover the vision and objectives behind the Indonesia-Australia Prosperity Expo 2025, promoting economic growth, cultural understanding, and strategic partnerships." />
+    <meta property="og:image" content="{{ asset('assets/images/og-about-image.jpg') }}" />
+    <meta property="og:url" content="{{ url()->current() }}" />
+    <meta property="og:type" content="website" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="About IAPEX 2025: Strengthening Indonesia-Australia Ties" />
+    <meta name="twitter:description" content="Explore the mission of Indonesia-Australia Prosperity Expo 2025. Learn how it aims to enhance trade, investment, and cultural exchange between the two nations. #IAPEX2025 #IndonesiaAustralia" />
+    <meta name="twitter:image" content="{{ asset('assets/images/og-about-image.jpg') }}" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+
+    <link rel="stylesheet" href="{{ asset('assets/css/about.css') }}">
 </head>
 
 <body>
@@ -26,10 +36,11 @@
             class="logo"
             alt="Logo" />
         <nav>
-            <a href="#about">About</a>
-            <a href="#conference">Conference</a>
-            <a href="#exhibition">Exhibition</a>
-            <a href="#business">Business Matching</a>
+            <a href="{{ route('home') }}" class="{{ request()->routeIs('home') ? 'active' : '' }}">Home</a>
+            <a href="{{ route('about') }}" class="{{ request()->routeIs('about') ? 'active' : '' }}">About</a>
+            <a href="{{ route('conference') }}" class="{{ request()->routeIs('conference') ? 'active' : '' }}">Conference</a>
+            <a href="{{ route('exhibition') }}" class="{{ request()->routeIs('exhibition') ? 'active' : '' }}">Exhibition</a>
+            <a href="{{ route('businessmatching') }}" class="{{ request()->routeIs('businessmatching') ? 'active' : '' }}">Business Matching</a>
         </nav>
         <div class="mobile-menu-toggle" id="mobile-menu-toggle">
             <span></span>
@@ -40,12 +51,13 @@
 
     <div class="mobile-overlay" id="mobile-overlay"></div>
     <nav class="mobile-nav" id="mobile-nav">
-        <a href="#about">About</a>
-        <a href="#conference">Conference</a>
-        <a href="#exhibition">Exhibition</a>
-        <a href="#business">Business Matching</a>
+        <a href="{{ route('home') }}" class="{{ request()->routeIs('home') ? 'active' : '' }}">Home</a>
+        <a href="{{ route('about') }}" class="{{ request()->routeIs('about') ? 'active' : '' }}">About</a>
+        <a href="{{ route('conference') }}" class="{{ request()->routeIs('conference') ? 'active' : '' }}">Conference</a>
+        <a href="{{ route('exhibition') }}" class="{{ request()->routeIs('exhibition') ? 'active' : '' }}">Exhibition</a>
+        <a href="{{ route('businessmatching') }}" class="{{ request()->routeIs('businessmatching') ? 'active' : '' }}">Business Matching</a>
     </nav>
-    
+
     <!-- Hero Section -->
     <section class="hero-section">
         <div class="hero-particles" id="particles"></div>
@@ -350,25 +362,31 @@
                     <h3>Navigation</h3>
                     <ul>
                         <li>
-                            <a href="https://prosperity-expo.com/about/">
+                            <a href="{{ route('home') }}" class="{{ request()->routeIs('home') ? 'active' : '' }}">
+                                <span class="material-icons">home</span>
+                                Home
+                            </a>
+                        </li>
+                        <li>
+                            <a href="{{ route('about') }}" class="{{ request()->routeIs('about') ? 'active' : '' }}">
                                 <span class="material-icons">info</span>
                                 About
                             </a>
                         </li>
                         <li>
-                            <a href="https://prosperity-expo.com/conference/">
+                            <a href="{{ route('conference') }}" class="{{ request()->routeIs('conference') ? 'active' : '' }}">
                                 <span class="material-icons">people</span>
                                 Conference
                             </a>
                         </li>
                         <li>
-                            <a href="https://prosperity-expo.com/exhibition/">
+                            <a href="{{ route('exhibition') }}" class="{{ request()->routeIs('exhibition') ? 'active' : '' }}">
                                 <span class="material-icons">store</span>
                                 Exhibition
                             </a>
                         </li>
                         <li>
-                            <a href="https://prosperity-expo.com/business-matching/">
+                            <a href="{{ route('businessmatching') }}" class="{{ request()->routeIs('businessmatching') ? 'active' : '' }}">
                                 <span class="material-icons">handshake</span>
                                 Business Matching
                             </a>

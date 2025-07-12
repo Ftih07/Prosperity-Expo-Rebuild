@@ -136,6 +136,14 @@ nav a:hover::before {
     width: 100%;
 }
 
+nav a.active {
+    color: var(--primary-red);
+}
+
+nav a.active::before {
+    width: 100%;
+}
+
 /* Tablet Responsive Design */
 @media (max-width: 1024px) and (min-width: 769px) {
     header {
@@ -2466,6 +2474,20 @@ nav a:hover::before {
 }
 
 .footer-links a:hover .material-icons {
+    opacity: 1;
+    transform: rotate(360deg) scale(1.2);
+    color: var(--secondary-blue);
+}
+
+.footer-links a.active {
+    color: #ffffff;
+    background: var(--accent-blue);
+    padding-left: 1rem;
+    transform: translateX(15px) scale(1.05);
+    box-shadow: 0 5px 20px rgba(59, 130, 246, 0.2);
+}
+
+.footer-links a.active .material-icons {
     opacity: 1;
     transform: rotate(360deg) scale(1.2);
     color: var(--secondary-blue);
