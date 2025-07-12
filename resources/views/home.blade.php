@@ -25,7 +25,7 @@
             class="logo"
             alt="Logo" />
         <nav>
-            <a href="#about">About</a>
+            <a href="/about">About</a>
             <a href="#conference">Conference</a>
             <a href="#exhibition">Exhibition</a>
             <a href="#business">Business Matching</a>
@@ -52,7 +52,7 @@
             <h1>Indonesia–Australia<br />Prosperity Exhibition 2025</h1>
             <div class="subtitle">Wednesday, 6 August 2025</div>
             <div class="location">The Ritz–Carlton Jakarta, Mega Kuningan</div>
-            <a href="https://tasteofindonesia.com.au/prosperity-expo" class="register-btn-hero">REGISTER NOW</a>
+            <a href="https://tasteofindonesia.com.au/prosperity-expo" target="_blank" class="register-btn-hero">REGISTER NOW</a>
         </div>
 
         <img
