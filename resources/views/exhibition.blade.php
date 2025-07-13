@@ -96,95 +96,192 @@
 
     <!-- Expo Visitors Section -->
     <section class="section">
-        <div class="section-header fade-in">
-            <h2><i class="fas fa-users"></i> Expo Visitors</h2>
-            <p>Discover who should visit the expo and unlock incredible opportunities for growth and collaboration</p>
+        <div class="container">
+            <div class="section-header fade-in-up">
+                <h2>Who Should Visit</h2>
+                <p>
+                    Discover the key stakeholders and professionals who will benefit
+                    from attending this prestigious expo
+                </p>
+            </div>
+
+            <div class="cards-grid">
+                <div class="card fade-in-left">
+                    <div class="card-icon">
+                        <i class="fas fa-briefcase"></i>
+                    </div>
+                    <h3>Business Leaders & Entrepreneurs</h3>
+                    <ul>
+                        <li>SMEs expanding internationally</li>
+                        <li>Large corporations seeking trade</li>
+                        <li>Startups in tech & renewable energy</li>
+                    </ul>
+                    <p>In agriculture, technology, manufacturing, and services.</p>
+                </div>
+
+                <div class="card fade-in-up">
+                    <div class="card-icon">
+                        <i class="fas fa-landmark"></i>
+                    </div>
+                    <h3>Government Officials & Diplomats</h3>
+                    <ul>
+                        <li>Representatives from government</li>
+                        <li>Ambassadors & trade commissioners</li>
+                    </ul>
+                    <p>From Indonesian and Australian departments.</p>
+                </div>
+
+                <div class="card fade-in-right">
+                    <div class="card-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3>Investors</h3>
+                    <ul>
+                        <li>Venture capitalists & angel investors</li>
+                        <li>Private equity firms</li>
+                    </ul>
+                    <p>Interested in renewable energy, healthcare, and more.</p>
+                </div>
+
+                <div class="card fade-in-left">
+                    <div class="card-icon">
+                        <i class="fas fa-plane"></i>
+                    </div>
+                    <h3>Tourism Professionals</h3>
+                    <ul>
+                        <li>Travel agencies & tour operators</li>
+                        <li>Tourism boards & agencies</li>
+                    </ul>
+                    <p>Promoting cross-border tourism.</p>
+                </div>
+
+                <div class="card fade-in-up">
+                    <div class="card-icon">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <h3>Educational Institutions & Students</h3>
+                    <ul>
+                        <li>Universities & vocational centers</li>
+                        <li>Students seeking study abroad</li>
+                    </ul>
+                    <p>With exchange programs and international partnerships.</p>
+                </div>
+
+                <div class="card fade-in-right">
+                    <div class="card-icon">
+                        <i class="fas fa-palette"></i>
+                    </div>
+                    <h3>Cultural Organizations</h3>
+                    <ul>
+                        <li>Art & cultural groups</li>
+                        <li>Non-profits promoting culture</li>
+                    </ul>
+                    <p>Focusing on cultural exchange and artistic collaboration.</p>
+                </div>
+            </div>
         </div>
+    </section>
 
-        <div class="cards-grid">
-            <div class="card fade-in">
-                <div class="card-icon">
-                    <i class="fas fa-briefcase"></i>
-                </div>
-                <h3>Business Leaders & Entrepreneurs</h3>
-                <ul>
-                    <li>SMEs expanding internationally</li>
-                    <li>Large corporations seeking trade</li>
-                    <li>Startups in tech & renewable energy</li>
-                </ul>
-                <p>In agriculture, technology, manufacturing, and services.</p>
+    <!-- Expo Exhibitors Section -->
+    <section class="section">
+        <div class="container">
+            <div class="section-header fade-in-up">
+                <h2>Who Should Exhibit</h2>
+                <p>
+                    Join industry leaders and innovators showcasing the best of
+                    Indonesia and Australia
+                </p>
             </div>
 
-            <div class="card fade-in">
-                <div class="card-icon">
-                    <i class="fas fa-landmark"></i>
+            <div class="cards-grid">
+                <div class="card fade-in-left">
+                    <div class="card-icon">
+                        <i class="fas fa-building"></i>
+                    </div>
+                    <h3>SMEs and Companies</h3>
+                    <ul>
+                        <li>Indonesian Exhibitors</li>
+                        <li>Australian Exhibitors</li>
+                    </ul>
+                    <p>
+                        From agriculture, manufacturing, consumer goods, fashion (e.g.,
+                        batik), technology, tourism, and renewable energy.
+                    </p>
                 </div>
-                <h3>Government Officials & Diplomats</h3>
-                <ul>
-                    <li>Representatives from government</li>
-                    <li>Ambassadors & trade commissioners</li>
-                </ul>
-                <p>From Indonesian and Australian departments.</p>
-            </div>
 
-            <div class="card fade-in">
-                <div class="card-icon">
-                    <i class="fas fa-chart-line"></i>
+                <div class="card fade-in-up">
+                    <div class="card-icon">
+                        <i class="fas fa-map-marked-alt"></i>
+                    </div>
+                    <h3>Tourism Operators & Agencies</h3>
+                    <ul>
+                        <li>Travel agencies & tour operators</li>
+                        <li>Hotels & resorts</li>
+                    </ul>
+                    <p>
+                        Showcasing tourism destinations, packages, and experiences in
+                        Indonesia and Australia.
+                    </p>
                 </div>
-                <h3>Investors</h3>
-                <ul>
-                    <li>Venture capitalists & angel investors</li>
-                    <li>Private equity firms</li>
-                </ul>
-                <p>Interested in renewable energy, healthcare, and more.</p>
-            </div>
 
-            <div class="card fade-in">
-                <div class="card-icon">
-                    <i class="fas fa-plane"></i>
+                <div class="card fade-in-right">
+                    <div class="card-icon">
+                        <i class="fas fa-theater-masks"></i>
+                    </div>
+                    <h3>Cultural Institutions</h3>
+                    <ul>
+                        <li>Cultural heritage organizations</li>
+                        <li>Performing arts groups</li>
+                    </ul>
+                    <p>Showcasing traditional crafts, arts, and performances.</p>
                 </div>
-                <h3>Tourism Professionals</h3>
-                <ul>
-                    <li>Travel agencies & tour operators</li>
-                    <li>Tourism boards & agencies</li>
-                </ul>
-                <p>Promoting cross-border tourism.</p>
-            </div>
 
-            <div class="card fade-in">
-                <div class="card-icon">
-                    <i class="fas fa-graduation-cap"></i>
+                <div class="card fade-in-left">
+                    <div class="card-icon">
+                        <i class="fas fa-handshake"></i>
+                    </div>
+                    <h3>Investors & Financial Institutions</h3>
+                    <ul>
+                        <li>Banks, investment firms, and venture capitalists</li>
+                        <li>
+                            Showcasing opportunities for investment in emerging industries
+                        </li>
+                    </ul>
+                    <p>
+                        Showcasing opportunities for investment in emerging industries
+                        like sustainable technologies, renewable energy, and agriculture.
+                    </p>
                 </div>
-                <h3>Educational Institutions & Students</h3>
-                <ul>
-                    <li>Universities & vocational centers</li>
-                    <li>Students seeking study abroad</li>
-                </ul>
-                <p>With exchange programs and international partnerships.</p>
-            </div>
 
-            <div class="card fade-in">
-                <div class="card-icon">
-                    <i class="fas fa-palette"></i>
+                <div class="card fade-in-up">
+                    <div class="card-icon">
+                        <i class="fas fa-rocket"></i>
+                    </div>
+                    <h3>Technology & Innovation Companies</h3>
+                    <ul>
+                        <li>Tech startups</li>
+                        <li>Educational technology providers</li>
+                    </ul>
+                    <p>
+                        In FinTech, green energy, digital transformation, artificial
+                        intelligence, and blockchain.
+                    </p>
                 </div>
-                <h3>Cultural Organizations</h3>
-                <ul>
-                    <li>Art & cultural groups</li>
-                    <li>Non-profits promoting culture</li>
-                </ul>
-                <p>Focusing on cultural exchange and artistic collaboration.</p>
-            </div>
 
-            <div class="card fade-in">
-                <div class="card-icon">
-                    <i class="fas fa-handshake"></i>
+                <div class="card fade-in-right">
+                    <div class="card-icon">
+                        <i class="fas fa-leaf"></i>
+                    </div>
+                    <h3>Sustainability & Environmental Initiatives</h3>
+                    <ul>
+                        <li>Eco-friendly businesses</li>
+                    </ul>
+                    <p>
+                        Promoting sustainable practices, products, and services related to
+                        energy, waste management, sustainable agriculture, and green
+                        construction.
+                    </p>
                 </div>
-                <h3>Professional Networks & Associations</h3>
-                <ul>
-                    <li>Industry associations</li>
-                    <li>Chambers of Commerce</li>
-                </ul>
-                <p>Organizing business events and conferences.</p>
             </div>
         </div>
     </section>
@@ -225,6 +322,21 @@
                     <li>Priority access to buyers</li>
                 </ul>
                 <a href="https://tasteofindonesia.com.au/prosperity-expo" target="_blank" class="package-btn">Choose Package</a>
+            </div>
+
+            <div class="package-card featured fade-in">
+                <div class="card-icon-exhibition">
+                    <i class="fas fa-user-friends"></i>
+                </div>
+                <h3>Visitor Package</h3>
+                <div class="price">FREE</div>
+                <ul>
+                    <li>Access to exhibition area</li>
+                    <li>E-directory access</li>
+                    <li>Networking opportunities</li>
+                    <li>Panel attendance (limited)</li>
+                </ul>
+                <a href="#" class="package-btn">Choose Package</a>
             </div>
         </div>
     </section>
