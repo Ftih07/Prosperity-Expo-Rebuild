@@ -15,14 +15,14 @@
 
     <meta property="og:title" content="Indonesia–Australia Prosperity Expo 2025 – Business Matching" />
     <meta property="og:description" content="Facilitate strategic partnerships and unlock new trade and investment opportunities through our hybrid business matching sessions at IAPEX 2025." />
-    <meta property="og:image" content="{{ asset('assets/images/og-image.jpg') }}" />
+    <meta property="og:image" content="{{ asset('assets/images/og-image-business-matching.jpg') }}" />
     <meta property="og:url" content="{{ url()->current() }}" />
     <meta property="og:type" content="website" />
 
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="Indonesia–Australia Prosperity Expo 2025 – Business Matching" />
     <meta name="twitter:description" content="Connect with key industry players and government officials in Indonesia and Australia via IAPEX 2025's Business Matching session." />
-    <meta name="twitter:image" content="{{ asset('assets/images/og-image.jpg') }}" />
+    <meta name="twitter:image" content="{{ asset('assets/images/og-image-business-matching.jpg') }}" />
 
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />

@@ -13,14 +13,14 @@
     <link rel="icon" href="assets/images/logo/IAPEX_Logo.png" type="image/x-icon" />
     <meta property="og:title" content="Indonesia–Australia Prosperity Expo 2025 – Home" />
     <meta property="og:description" content="Join IAPEX 2025 to foster stronger ties and explore economic and cultural opportunities between Indonesia and Australia." />
-    <meta property="og:image" content="{{ asset('assets/images/og-image.jpg') }}" />
+    <meta property="og:image" content="{{ asset('assets/images/og-image-home.jpg') }}" />
     <meta property="og:url" content="{{ url()->current() }}" />
     <meta property="og:type" content="website" />
 
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="Indonesia–Australia Prosperity Expo 2025" />
     <meta name="twitter:description" content="Connect and grow with Indonesia and Australia at IAPEX 2025. Discover key insights and networking opportunities." />
-    <meta name="twitter:image" content="{{ asset('assets/images/og-image.jpg') }}" />
+    <meta name="twitter:image" content="{{ asset('assets/images/og-image-home.jpg') }}" />
 
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />

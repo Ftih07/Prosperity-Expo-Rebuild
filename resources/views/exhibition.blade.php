@@ -15,14 +15,14 @@
 
     <meta property="og:title" content="Indonesia–Australia Prosperity Expo 2025 – Exhibition" />
     <meta property="og:description" content="Showcase your products, services, and innovations to a diverse audience at the Indonesia–Australia Prosperity Expo 2025. Explore booth packages and visitor benefits." />
-    <meta property="og:image" content="{{ asset('assets/images/og-image.jpg') }}" />
+    <meta property="og:image" content="{{ asset('assets/images/og-image-exhibition.jpg') }}" />
     <meta property="og:url" content="{{ url()->current() }}" />
     <meta property="og:type" content="website" />
 
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="Indonesia–Australia Prosperity Expo 2025 – Exhibition" />
     <meta name="twitter:description" content="Don't miss the exhibition at IAPEX 2025! A prime platform for trade, investment, and networking between Indonesia and Australia." />
-    <meta name="twitter:image" content="{{ asset('assets/images/og-image.jpg') }}" />
+    <meta name="twitter:image" content="{{ asset('assets/images/og-image-exhibition.jpg') }}" />
 
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
