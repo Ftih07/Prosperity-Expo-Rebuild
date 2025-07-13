@@ -5,7 +5,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <title>Indonesia–Australia Prosperity Expo 2025 – Home</title>
+    <title>Home - Indonesia–Australia Prosperity Expo 2025</title>
     <meta name="description" content="Official website for the Indonesia–Australia Prosperity Expo 2025. Explore business, cultural, and innovation opportunities between Indonesia and Australia.">
     <meta name="keywords" content="IAPEX 2025, Indonesia Australia Expo, Home, Business Opportunities, Cultural Exchange, Innovation, Trade, Tourism">
     <meta name="author" content="Indonesia–Australia Prosperity Expo Committee" />
