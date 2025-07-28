@@ -15,14 +15,14 @@
 
     <meta property="og:title" content="Indonesia–Australia Prosperity Expo 2025 – Exhibition" />
     <meta property="og:description" content="Showcase your products, services, and innovations to a diverse audience at the Indonesia–Australia Prosperity Expo 2025. Explore booth packages and visitor benefits." />
-    <meta property="og:image" content="{{ asset('assets/images/og-image-exhibition.jpg') }}" />
+    <meta property="og:image" content="{{ asset('assets/images/logo/IAPEX_Logo.png') }}" />
     <meta property="og:url" content="{{ url()->current() }}" />
     <meta property="og:type" content="website" />
 
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="Indonesia–Australia Prosperity Expo 2025 – Exhibition" />
     <meta name="twitter:description" content="Don't miss the exhibition at IAPEX 2025! A prime platform for trade, investment, and networking between Indonesia and Australia." />
-    <meta name="twitter:image" content="{{ asset('assets/images/og-image-exhibition.jpg') }}" />
+    <meta name="twitter:image" content="{{ asset('assets/images/logo/IAPEX_Logo.png') }}" />
 
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
@@ -85,10 +85,10 @@
                     class="cta-button fade-in">
                     <i class="fas fa-edit"></i> Register Now
                 </a>
-                <a href="{{ asset('assets/files/LAYOUT-IAEXPO-2025_2605-1.pdf') }}"
+                <a href="{{ route('booth') }}"
                     class="cta-button fade-in"
                     target="_blank">
-                    <i class="fas fa-download"></i> Download Booth Layout
+                    <i class="fas fa-map"></i> Open Floor Plan
                 </a>
             </div>
         </div>
@@ -336,7 +336,7 @@
                     <li>Networking opportunities</li>
                     <li>Panel attendance (limited)</li>
                 </ul>
-                <a href="#" class="package-btn">Choose Package</a>
+                <a href="https://tasteofindonesia.com.au/prosperity-expo" target="_blank" class="package-btn">Choose Package</a>
             </div>
         </div>
     </section>
@@ -558,6 +558,9 @@
     </footer>
 
     <script src="assets/js/exhibition.js"></script>
+
+    @include('partials.floating-register-contact')
+
 </body>
 
 </html>

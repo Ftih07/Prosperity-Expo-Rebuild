@@ -2,9 +2,15 @@
 <html lang="en">
 
 <head>
+    {{-- Default meta --}}
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Taste of Indonesia</title>
+
+    {{-- Title default (akan diganti jika child template menambahkan @section('meta')) --}}
+    <title>@yield('title', 'Prosperity Expo')</title>
+    
+    {{-- Taruh section meta di sini --}}
+    @yield('meta')
 </head>
 
 <body>

@@ -14,14 +14,14 @@
 
     <meta property="og:title" content="IAPEX 2025 Conference: Health, Education, Tech & Agriculture" />
     <meta property="og:description" content="Discover the full agenda and esteemed speakers at the Indonesia-Australia Prosperity Expo 2025 Conference. Explore multi-sector discussions and networking opportunities." />
-    <meta property="og:image" content="{{ asset('assets/images/og-conference-image.jpg') }}" />
+    <meta property="og:image" content="{{ asset('assets/images/logo/IAPEX_Logo.png') }}" />
     <meta property="og:url" content="{{ url()->current() }}" />
     <meta property="og:type" content="website" />
 
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="IAPEX 2025 Conference: Health, Education, Tech & Agriculture" />
     <meta name="twitter:description" content="Join leaders and experts at the IAPEX 2025 Conference. Deep dive into key sectors driving Indonesia-Australia economic partnership. #IAPEX2025 #Conference" />
-    <meta name="twitter:image" content="{{ asset('assets/images/og-conference-image.jpg') }}" />
+    <meta name="twitter:image" content="{{ asset('assets/images/logo/IAPEX_Logo.png') }}" />
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
@@ -987,6 +987,9 @@
     </footer>
 
     <script src="assets/js/conference.js"></script>
+
+    @include('partials.floating-register-contact')
+
 </body>
 
 </html>
