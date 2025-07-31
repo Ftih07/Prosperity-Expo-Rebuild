@@ -25,3 +25,10 @@ Route::get('/download-denah', function () {
     // Return a download response, serving the file with a specified download name.
     return response()->download($file, 'denah-prosperity-expo.pdf');
 });
+
+Route::get('/download-denah-3d', function () {
+    // Define the path to the PDF file within the public directory.
+    $file = public_path('assets/denah-3d.pdf');
+    // Return a download response, serving the file with a specified download name.
+    return response()->download($file, 'denah-3d-prosperity-expo.pdf');
+});

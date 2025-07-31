@@ -296,7 +296,7 @@
                         the future of bilateral economic cooperation.
                     </p>
                     <div class="speakers-grid">
-                        <div class="speaker-card keynote-speaker scroll-animate">
+                        <div class="speaker-card speaker-card-with-photo scroll-animate">
                             <a
                                 href="https://id.wikipedia.org/wiki/Budi_Santoso_(birokrat)"
                                 target="_blank">
@@ -615,11 +615,11 @@
                         sectors.
                     </p>
                     <div class="speakers-grid">
-                        <div class="speaker-card keynote-speaker scroll-animate">
+                        <div class="speaker-card speaker-card-with-photo scroll-animate">
                             <a href="https://haris.com.au/" target="_blank">
                                 <div class="speaker-content">
                                     <img
-                                        src="https://kemlu.go.id/files/struktur_organisasi/Agung%20Haris%20Setiawan-perwakilan-Canberra-21.jpeg"
+                                        src="assets/haris.png"
                                         alt="HE Budi Santoso"
                                         class="speaker-photo" />
                                     <div class="speaker-name">Agung Haris Setiawan</div>

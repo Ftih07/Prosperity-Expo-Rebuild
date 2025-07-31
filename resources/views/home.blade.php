@@ -94,6 +94,50 @@
         <div id="countdown-ended">🎉 The Event Has Started!</div>
     </section>
 
+    <!-- Modal Live Streaming -->
+    <div id="liveModal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <span class="close">&times;</span>
+                <h2 class="modal-title">🌟 Prosperity Expo 2025</h2>
+                <p class="modal-subtitle">Indonesia–Australia Business Partnership Summit</p>
+                <div class="live-badge">
+                    <div class="live-dot"></div>
+                    LIVE STREAMING
+                </div>
+            </div>
+
+            <div class="modal-body">
+                <div class="video-container">
+                    <iframe
+                        src="https://www.youtube.com/embed/DOOrIxw5xOw?autoplay=1&rel=0&modestbranding=1"
+                        allowfullscreen>
+                    </iframe>
+                </div>
+            </div>
+
+            <div class="modal-footer">
+                <div class="expo-info">
+                    <div class="info-item">
+                        <div class="info-icon">🌏</div>
+                        <div class="info-text">Global Partnership</div>
+                        <div class="info-subtext">Indonesia × Australia</div>
+                    </div>
+                    <div class="info-item">
+                        <div class="info-icon">💼</div>
+                        <div class="info-text">Business Expo</div>
+                        <div class="info-subtext">Trade & Investment</div>
+                    </div>
+                    <div class="info-item">
+                        <div class="info-icon">🚀</div>
+                        <div class="info-text">Innovation Hub</div>
+                        <div class="info-subtext">Future Technology</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <section class="features scroll-reveal">
         <div class="feature-box">
             <div class="feature-icon">
@@ -748,6 +792,7 @@
         </div>
     </footer>
 
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.5.1/dist/confetti.browser.min.js"></script>
     <script src="assets/js/home.js"></script>
 
     @include('partials.floating-register-contact')

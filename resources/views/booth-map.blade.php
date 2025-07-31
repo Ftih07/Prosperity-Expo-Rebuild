@@ -582,6 +582,16 @@
             </a>
         </div>
 
+        <div class="download-section">
+            <h3 style="margin-top: 0; color: var(--prosperity-blue); font-size: 18px;">📥 Download Complete 3D Floor Plan</h3>
+            <p style="margin-bottom: 15px; color: var(--prosperity-dark);">
+                Get the full version of the floor plan with 3D details for offline reference.
+            </p>
+            <a href="{{ url('/download-denah-3d') }}" class="download-btn">
+                Download 3D Floor Plan (PDF)
+            </a>
+        </div>
+
         <!-- New mobile-specific warning -->
         <div class="instruction-section" style="background:#fff8e1; padding:15px; border-radius:10px; margin-bottom:20px;">
             <h3 style="color:#d97706; font-size:18px; margin-bottom:8px;">⚠️ Best Viewed on Desktop</h3>

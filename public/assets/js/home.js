@@ -425,6 +425,8 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 // ================== UTILITY ==================
+let modalShown = false;
+
 const countdown = () => {
     const targetDate = new Date("2025-08-06T00:00:00+07:00");
     const now = new Date();
@@ -434,8 +436,34 @@ const countdown = () => {
     const countdownContainer = document.getElementById("countdown");
 
     if (diff <= 0) {
-        countdownContainer.style.display = "none";
-        ended.style.display = "block";
+        if (countdownContainer) countdownContainer.style.display = "none";
+        if (ended) {
+            ended.style.display = "flex"; // Ubah ke flex untuk layout button
+            ended.innerHTML = `
+                        🎉 Welcome to Prosperity Expo 2025!
+                        <button class="live-button" onclick="document.getElementById('liveModal').style.display = 'flex'">
+                            <div class="live-button-icon"></div>
+                            Watch Live Stream
+                        </button>
+                    `;
+        }
+
+        // Modal otomatis muncul sekali saja
+        if (!modalShown) {
+            const modal = document.getElementById("liveModal");
+            modal.style.display = "flex";
+            modalShown = true;
+
+            // Confetti effect
+            if (window.confetti) {
+                confetti({
+                    particleCount: 200,
+                    spread: 100,
+                    origin: { y: 0.6 },
+                    colors: ["#3b82f6", "#ef4444", "#10b981", "#f59e0b"],
+                });
+            }
+        }
         return;
     }
 
@@ -444,23 +472,48 @@ const countdown = () => {
     const minutes = Math.floor((diff / 1000 / 60) % 60);
     const seconds = Math.floor((diff / 1000) % 60);
 
-    document.getElementById("days").textContent = String(days).padStart(2, "0");
-    document.getElementById("hours").textContent = String(hours).padStart(
-        2,
-        "0"
-    );
-    document.getElementById("minutes").textContent = String(minutes).padStart(
-        2,
-        "0"
-    );
-    document.getElementById("seconds").textContent = String(seconds).padStart(
-        2,
-        "0"
-    );
+    if (document.getElementById("days")) {
+        document.getElementById("days").textContent = String(days).padStart(
+            2,
+            "0"
+        );
+    }
+    if (document.getElementById("hours")) {
+        document.getElementById("hours").textContent = String(hours).padStart(
+            2,
+            "0"
+        );
+    }
+    if (document.getElementById("minutes")) {
+        document.getElementById("minutes").textContent = String(
+            minutes
+        ).padStart(2, "0");
+    }
+    if (document.getElementById("seconds")) {
+        document.getElementById("seconds").textContent = String(
+            seconds
+        ).padStart(2, "0");
+    }
 };
 
 setInterval(countdown, 1000);
 countdown();
+
+// Modal close functionality
+const modal = document.getElementById("liveModal");
+const closeBtn = document.querySelector("#liveModal .close");
+
+if (closeBtn) {
+    closeBtn.addEventListener("click", () => {
+        modal.style.display = "none";
+    });
+}
+
+window.addEventListener("click", (e) => {
+    if (e.target === modal) {
+        modal.style.display = "none";
+    }
+});
 
 const createParticles = () => {
     const particlesContainer = document.getElementById("particles");
