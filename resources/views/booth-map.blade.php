@@ -664,40 +664,39 @@
         </div>
     </div>
 
-    @php
-    // Define an associative array for booth data, where keys are booth IDs (e.g., 'A1', 'S1').
-    // Each entry contains the 'name' of the exhibitor and a 'desc' (description).
-    $booths = [
-    'A1' => ['name' => 'Available Booth', 'desc' => 'Exhibitor slot open – contact the organizer for participation.'],
-    'A2' => ['name' => 'Mulia Edukasi Mandiri', 'desc' => 'An educational institution or a company providing comprehensive educational services and training programs.'],
-    'A3' => ['name' => 'Sembilan Meter Persegi', 'desc' => 'A company focused on efficient space utilization, design, or a creative agency.'],
-    'A4' => ['name' => 'MS-Consultant', 'desc' => 'A professional consulting firm offering specialized expertise.'],
-    'A5' => ['name' => 'La Moringa', 'desc' => 'A company specializing in Moringa-based products.'],
+@php
+// Define an associative array for booth data, where keys are booth IDs (e.g., 'A1', 'S1').
+// Each entry contains the 'name' of the exhibitor and a 'desc' (description).
+$booths = [
+'A1' => ['name' => ' PT Meta Usa Utama', 'desc' => 'A prominent manufacturing company with a strong focus on quality and innovation in the industrial sector.'],
+'A2' => ['name' => 'Sorgu mku', 'desc' => 'An innovative entity or project known for its pioneering work in advanced technology and strategic solutions.'],
+'A3' => ['name' => 'PT Herbal Asa Nusa', 'desc' => 'A leading producer and innovator in the herbal products industry, committed to sustainable and natural health solutions.'],
+'A4' => ['name' => 'PT Audie Bulding Industry', 'desc' => 'A trusted name in the building and construction industry, providing high-quality materials and reliable services for modern infrastructure.'],
+'A5' => ['name' => 'SEMBILAN METER PERSEGI', 'desc' => 'A creative and forward-thinking company specializing in optimizing spatial design and offering innovative solutions for modern living and workspaces.'],
 
-    'A6' => ['name' => 'Local Esia', 'desc' => 'A local business initiative or regional presence of a larger organization.'],
-    'A7' => ['name' => 'PT Kereta Api Indonesia', 'desc' => 'The national railway company of Indonesia.'],
-    'A8' => ['name' => 'Available Booth', 'desc' => 'Exhibitor slot open – contact the organizer for participation.'],
-    'A9' => ['name' => 'Available Booth', 'desc' => 'Exhibitor slot open – contact the organizer for participation.'],
-    'A10-12' => ['name' => 'LPEI - Indonesia Eximbank', 'desc' => 'The official export credit agency of Indonesia.'],
+'A6' => ['name' => 'Local Esia', 'desc' => 'A key player in fostering local economic growth and showcasing regional businesses on a national and international scale.'],
+'A7' => ['name' => 'Artistry, GSE, IMFWM, KUPU & DEKA', 'desc' => 'A dynamic collective of visionary companies, each a leader in their respective fields, coming together to showcase collaborative innovation.'],
+'A8' => ['name' => 'JACK RUNNERS*', 'desc' => 'An enterprise recognized for its efficiency and speed in logistics and operational services, driving modern business forward.'],
+'A9' => ['name' => 'MS Consultant*', 'desc' => 'A professional consulting firm renowned for its strategic expertise and proven success in guiding businesses to achieve their growth objectives.'],
+'A10-12' => ['name' => 'LPEI - Indonesia Eximbank', 'desc' => 'The official export credit agency of Indonesia, dedicated to promoting and financing national exports to the global market.'],
 
-    'A13-17' => ['name' => 'KATALIS PARTNERS', 'desc' => 'A firm that acts as a catalyst for business growth.'],
+'A13-17' => ['name' => 'KATALIS PARTNERS', 'desc' => 'A strategic advisory firm that empowers businesses with innovative solutions and partnerships to accelerate their market entry and expansion.'],
 
-    'A18' => ['name' => 'Karunia Multi Indah (Varesse)', 'desc' => 'Likely involved in beauty, lifestyle, or home decor.'],
-    'A19' => ['name' => 'Export Expert Indonesia', 'desc' => 'A specialist company for export services.'],
+'A18' => ['name' => 'Varesse', 'desc' => 'A company distinguished by its innovative products and market-leading position in its industry.'],
+'A19' => ['name' => 'EXPORT EXPERT INDONESIA', 'desc' => 'A specialist consultancy providing comprehensive guidance and strategic support for businesses aiming to succeed in global export markets.'],
+'A20' => ['name' => 'PELINDO', 'desc' => 'Indonesia’s leading state-owned enterprise in port management and logistics, playing a crucial role in national and international trade.'],
+'A21' => ['name' => 'Ruang Halal', 'desc' => 'A platform and resource dedicated to the certification and promotion of Halal products and services, connecting businesses with a global Halal market.'],
+'A22' => ['name' => 'AIBC*', 'desc' => 'A key business council fostering strong commercial ties and facilitating trade and investment between two prominent nations.'],
+'A23' => ['name' => 'PELINDO', 'desc' => 'Indonesia’s leading state-owned enterprise in port management and logistics, playing a crucial role in national and international trade.'],
 
-    'A20' => ['name' => 'Waste Paper', 'desc' => 'A company engaged in paper recycling.'],
-    'A21' => ['name' => 'Available Booth', 'desc' => 'Exhibitor slot open – contact the organizer for participation.'],
-    'A22' => ['name' => 'Available Booth', 'desc' => 'Exhibitor slot open – contact the organizer for participation.'],
-    'A23' => ['name' => 'Victoria Investment n trade', 'desc' => 'Facilitates investment and trade with Victoria, Australia.'],
-
-    'A24' => ['name' => 'Global Sourcing Expo', 'desc' => 'A platform connecting global buyers and suppliers.'],
-    'A25' => ['name' => 'Ina Export', 'desc' => 'Promotes and assists Indonesian export businesses.'],
-    'S1' => ['name' => 'Privy ID', 'desc' => 'A leading provider of digital identity and e-signature solutions.'],
-    'S2' => ['name' => 'BSI', 'desc' => 'Bank Syariah Indonesia – a leading Islamic bank.'],
-    'S3' => ['name' => 'Available Booth', 'desc' => 'Sponsor slot open – contact the organizer for participation.'],
-    'S4' => ['name' => 'Available Booth', 'desc' => 'Sponsor slot open – contact the organizer for participation.'],
-    'S5' => ['name' => 'Interport Global', 'desc' => 'A logistics and freight forwarding company.'],
-    ];
+'A24' => ['name' => 'Ina Export', 'desc' => 'A national initiative dedicated to showcasing and promoting the best of Indonesian export products to a global audience.'],
+'A25' => ['name' => 'INVEST VICTORIA*', 'desc' => 'The official government body for attracting foreign direct investment and fostering trade relations with the Australian state of Victoria.'],
+'S1' => ['name' => 'Privy ID', 'desc' => 'A market leader in digital identity and e-signature solutions, enabling secure and seamless transactions for businesses and individuals.'],
+'S2' => ['name' => 'KP2MI', 'desc' => 'A government-affiliated organization focused on empowering and protecting Indonesian migrant workers through strategic programs and support.'],
+'S3' => ['name' => 'PT KAI', 'desc' => 'The national railway company of Indonesia, connecting cities and supporting economic growth through reliable and modern transportation.'],
+'S4' => ['name' => 'GOORITA', 'desc' => 'An emerging platform or brand known for its innovative solutions and significant impact within its target industry.'],
+'S5' => ['name' => 'Interport Global', 'desc' => 'A trusted global logistics and freight forwarding company, connecting businesses worldwide with efficient and secure supply chain solutions.'],
+];
 
     // Define an associative array for booth positions (top, left, width, height) relative to the map.
     // These values are percentages to ensure responsiveness.
@@ -762,7 +761,7 @@
     --}}
     @foreach ($positions as $key => $pos)
     <div class="booth" style="top: {{ $pos['top'] }}; left: {{ $pos['left'] }}; width: {{ $pos['width'] }}; height: {{ $pos['height'] }};">
-        <div class="tooltip-info" style="top: -160px; left: 50%; transform: translateX(-50%);">
+        <div class="tooltip-info" style="top: -200px; left: 50%; transform: translateX(-50%);">
             <div class="tooltip-header">
                 <div class="tooltip-icon">{{ $getBoothIcon($key) }}</div> {{-- Display dynamic icon --}}
                 <h4 class="tooltip-title">{{ $booths[$key]['name'] }}</h4> {{-- Display booth name --}}

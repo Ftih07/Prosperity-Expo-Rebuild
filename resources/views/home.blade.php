@@ -110,7 +110,7 @@
             <div class="modal-body">
                 <div class="video-container">
                     <iframe
-                        src="https://www.youtube.com/embed/DOOrIxw5xOw?autoplay=1&rel=0&modestbranding=1"
+                        src="https://www.youtube.com/embed/oQCoWWLYhsk?autoplay=1"
                         allowfullscreen>
                     </iframe>
                 </div>
