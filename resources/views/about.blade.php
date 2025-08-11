@@ -78,9 +78,9 @@
             <div class="hero-date">August 6, 2025 • Jakarta, Indonesia</div>
             <div class="hero-cta">
                 <a
-                    href="https://tasteofindonesia.com.au/prosperity-expo"
+                    href="https://www.youtube.com/watch?v=oQCoWWLYhsk&t=4s"
                     target="_blank"
-                    class="cta-button">Register Now</a>
+                    class="cta-button">Watch Event Replay</a>
                 <a href="#background" class="cta-button">Explore the Vision</a>
             </div>
         </div>
@@ -405,10 +405,10 @@
                                 The Ritz-Carlton Jakarta<br />09:30 - 16:30 WIB
                             </div>
                             <a
-                                href="https://tasteofindonesia.com.au/prosperity-expo"
+                                href="https://www.youtube.com/watch?v=oQCoWWLYhsk&t=4s"
                                 target="_blank"
                                 class="register-btn">
-                                Register Now
+                                Watch Event Replay
                             </a>
                         </div>
 

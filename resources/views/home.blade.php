@@ -65,7 +65,7 @@
             <h1>Indonesia–Australia<br />Prosperity Exhibition 2025</h1>
             <div class="subtitle">Wednesday, 6 August 2025</div>
             <div class="location">The Ritz–Carlton Jakarta, Mega Kuningan</div>
-            <a href="https://tasteofindonesia.com.au/prosperity-expo" target="_blank" class="register-btn-hero">REGISTER NOW</a>
+            <a href="https://www.youtube.com/watch?v=oQCoWWLYhsk&t=4s" target="_blank" class="register-btn-hero">WATCH EVENT REPLAY</a>
         </div>
 
         <img
@@ -93,50 +93,6 @@
         </div>
         <div id="countdown-ended">🎉 The Event Has Started!</div>
     </section>
-
-    <!-- Modal Live Streaming -->
-    <div id="liveModal" class="modal">
-        <div class="modal-content">
-            <div class="modal-header">
-                <span class="close">&times;</span>
-                <h2 class="modal-title">🌟 Prosperity Expo 2025</h2>
-                <p class="modal-subtitle">Indonesia–Australia Business Partnership Summit</p>
-                <div class="live-badge">
-                    <div class="live-dot"></div>
-                    LIVE STREAMING
-                </div>
-            </div>
-
-            <div class="modal-body">
-                <div class="video-container">
-                    <iframe
-                        src="https://www.youtube.com/embed/oQCoWWLYhsk?autoplay=1"
-                        allowfullscreen>
-                    </iframe>
-                </div>
-            </div>
-
-            <div class="modal-footer">
-                <div class="expo-info">
-                    <div class="info-item">
-                        <div class="info-icon">🌏</div>
-                        <div class="info-text">Global Partnership</div>
-                        <div class="info-subtext">Indonesia × Australia</div>
-                    </div>
-                    <div class="info-item">
-                        <div class="info-icon">💼</div>
-                        <div class="info-text">Business Expo</div>
-                        <div class="info-subtext">Trade & Investment</div>
-                    </div>
-                    <div class="info-item">
-                        <div class="info-icon">🚀</div>
-                        <div class="info-text">Innovation Hub</div>
-                        <div class="info-subtext">Future Technology</div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
 
     <section class="features scroll-reveal">
         <div class="feature-box">
@@ -716,10 +672,10 @@
                                 The Ritz-Carlton Jakarta<br />09:30 - 16:30 WIB
                             </div>
                             <a
-                                href="https://tasteofindonesia.com.au/prosperity-expo"
+                                href="https://www.youtube.com/watch?v=oQCoWWLYhsk&t=4s"
                                 target="_blank"
                                 class="register-btn">
-                                Register Now
+                                Watch Event Replay
                             </a>
                         </div>
 

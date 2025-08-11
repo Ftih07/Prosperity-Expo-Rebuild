@@ -699,14 +699,14 @@
         </div>
 
         {{-- Register Button --}}
-        <a href="https://tasteofindonesia.com.au/prosperity-expo"
+        <a href="https://www.youtube.com/watch?v=oQCoWWLYhsk&t=4s"
             target="_blank" {{-- Opens link in a new tab --}}
             class="floating-btn register-btn-floating"
             aria-label="Register for Indonesia-Australia Prosperity Expo 2025">
             <div class="btn-icon">📋</div> {{-- Icon for register button --}}
             <div class="btn-content">
-                <span class="btn-text">Register Now</span>
-                <span class="btn-description">Secure your spot at the expo</span>
+                <span class="btn-text">Watch Event Replay</span>
+                <span class="btn-description">Watch event replay Prosperity Expo 2025</span>
             </div>
             <div class="prosperity-badge">2025</div> {{-- Animated badge --}}
         </a>
@@ -1044,7 +1044,7 @@
 
     // Preload critical resources for better mobile performance
     const preloadLinks = [
-        'https://tasteofindonesia.com.au/prosperity-expo',
+        'https://www.youtube.com/watch?v=oQCoWWLYhsk&t=4s',
         'https://wa.me/6281573000739'
     ];
 

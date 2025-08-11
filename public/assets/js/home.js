@@ -440,11 +440,7 @@ const countdown = () => {
         if (ended) {
             ended.style.display = "flex"; // Ubah ke flex untuk layout button
             ended.innerHTML = `
-                        🎉 Welcome to Prosperity Expo 2025!
-                        <button class="live-button" onclick="document.getElementById('liveModal').style.display = 'flex'">
-                            <div class="live-button-icon"></div>
-                            Watch Live Stream
-                        </button>
+                        🎉 Thank You for Joining Prosperity Expo 2025
                     `;
         }
 

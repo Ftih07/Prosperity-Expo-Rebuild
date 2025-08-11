@@ -74,11 +74,11 @@
                     and market expansion through innovative hybrid format meetings.
                 </p>
                 <a
-                    href="https://tasteofindonesia.com.au/prosperity-expo"
+                    href="https://www.youtube.com/watch?v=oQCoWWLYhsk&t=4s"
                     target="_blank"
                     class="cta-button">
                     <i class="fas fa-arrow-right"></i>
-                    Register Now
+                    Watch Event Replay
                 </a>
             </div>
         </div>
@@ -365,13 +365,6 @@
                 </p>
                 <div class="cta-buttons">
                     <a
-                        href="https://tasteofindonesia.com.au/prosperity-expo"
-                        target="_blank"
-                        class="cta-btn primary">
-                        <i class="fas fa-rocket"></i>
-                        Register as Exhibitor
-                    </a>
-                    <a
                         href="{{ route('about') }}"
                         class="cta-btn secondary">
                         <i class="fas fa-info-circle"></i>
@@ -522,10 +515,10 @@
                                 The Ritz-Carlton Jakarta<br />09:30 - 16:30 WIB
                             </div>
                             <a
-                                href="https://tasteofindonesia.com.au/prosperity-expo"
+                                href="https://www.youtube.com/watch?v=oQCoWWLYhsk&t=4s"
                                 target="_blank"
                                 class="register-btn">
-                                Register Now
+                                Watch Event Replay
                             </a>
                         </div>
 

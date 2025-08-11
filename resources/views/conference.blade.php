@@ -113,9 +113,10 @@
             </p>
             <div class="hero-buttons">
                 <a
-                    href="https://tasteofindonesia.com.au/prosperity-expo"
-                    class="btn-primary">Register Now</a>
-                <a href="#agenda" class="btn-secondary">View Agenda</a>
+                    href="https://www.youtube.com/watch?v=oQCoWWLYhsk&t=4s"
+                    target="_blank"
+                    class="btn-primary">Watch Event Replay</a>
+                <a href="http://bit.ly/SharingMaterials-KATALIS060725" target="_blank" class="btn-secondary">Download Final Materials</a>
             </div>
         </div>
     </section>
@@ -910,10 +911,10 @@
                                 The Ritz-Carlton Jakarta<br />09:30 - 16:30 WIB
                             </div>
                             <a
-                                href="https://tasteofindonesia.com.au/prosperity-expo"
+                                href="https://www.youtube.com/watch?v=oQCoWWLYhsk&t=4s"
                                 target="_blank"
                                 class="register-btn">
-                                Register Now
+                                Watch Event Replay
                             </a>
                         </div>
 

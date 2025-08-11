@@ -80,10 +80,10 @@
             <div class="hero-date">August 6, 2025 • Jakarta, Indonesia</div>
             <div class="hero-cta">
                 <a
-                    href="https://tasteofindonesia.com.au/prosperity-expo"
+                    href="https://www.youtube.com/watch?v=oQCoWWLYhsk&t=4s"
                     target="_blank"
                     class="cta-button fade-in">
-                    <i class="fas fa-edit"></i> Register Now
+                    <i class="fas fa-edit"></i> Watch Event Replay
                 </a>
                 <a href="{{ route('booth') }}"
                     class="cta-button fade-in"
@@ -286,11 +286,11 @@
         </div>
     </section>
 
-    <!-- Exhibition Booth Packages Section -->
+    <!-- Exhibition Booth Packages Recap -->
     <section class="section packages">
         <div class="section-header fade-in">
-            <h2><i class="fas fa-boxes"></i> Exhibition Booth Packages</h2>
-            <p>Choose the best package to showcase your business at the event</p>
+            <h2><i class="fas fa-boxes"></i> Exhibition Booth Packages (2025 Recap)</h2>
+            <p>Here’s a look at the packages offered during Prosperity Expo 2025</p>
         </div>
 
         <div class="packages-grid">
@@ -299,14 +299,12 @@
                     <i class="fas fa-store"></i>
                 </div>
                 <h3>Exhibitor Package</h3>
-                <div class="price">Rp. 10,000,000</div>
                 <ul>
-                    <li>Includes booth</li>
+                    <li>Included booth</li>
                     <li>Business matching</li>
                     <li>Exposure</li>
                     <li>E-directory listing</li>
                 </ul>
-                <a href="https://tasteofindonesia.com.au/prosperity-expo" target="_blank" class="package-btn">Choose Package</a>
             </div>
 
             <div class="package-card featured fade-in">
@@ -314,14 +312,12 @@
                     <i class="fas fa-crown"></i>
                 </div>
                 <h3>Sponsor Package</h3>
-                <div class="price">Rp. 25,000,000</div>
                 <ul>
-                    <li>Includes premium booth</li>
+                    <li>Premium booth</li>
                     <li>LED promo</li>
                     <li>Logo placement</li>
                     <li>Priority access to buyers</li>
                 </ul>
-                <a href="https://tasteofindonesia.com.au/prosperity-expo" target="_blank" class="package-btn">Choose Package</a>
             </div>
 
             <div class="package-card featured fade-in">
@@ -329,17 +325,16 @@
                     <i class="fas fa-user-friends"></i>
                 </div>
                 <h3>Visitor Package</h3>
-                <div class="price">FREE</div>
                 <ul>
                     <li>Access to exhibition area</li>
                     <li>E-directory access</li>
                     <li>Networking opportunities</li>
                     <li>Panel attendance (limited)</li>
                 </ul>
-                <a href="https://tasteofindonesia.com.au/prosperity-expo" target="_blank" class="package-btn">Choose Package</a>
             </div>
         </div>
     </section>
+
 
     <!-- Footer -->
     <footer class="footer">
@@ -481,10 +476,10 @@
                                 The Ritz-Carlton Jakarta<br />09:30 - 16:30 WIB
                             </div>
                             <a
-                                href="https://tasteofindonesia.com.au/prosperity-expo"
+                                href="https://www.youtube.com/watch?v=oQCoWWLYhsk&t=4s"
                                 target="_blank"
                                 class="register-btn">
-                                Register Now
+                                Watch Event Replay
                             </a>
                         </div>
 
